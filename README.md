@@ -1,7 +1,7 @@
 
 <p align="center">
  <h2 align="center">Simple Library for C++</h2>
- <h4 align="center">A Compact, Simple and Light Library to add to Existing Projects and New Projects</h4>
+ <h4 align="center">A Compact, Simple and Light Library to use on Existing Projects and new Projects</h4>
  <p align="center"></p>
 </p>
 
@@ -26,3 +26,11 @@
     
   </p>
 
+
+
+## Interfaces
+*   **Network Interface** - Allows for Simple HTTPS Connections
+*   **Security Interface** - Allows for Hashing of Strings and Hardware Identification
+*   **Math Interface** - Fast Time Complexity Mathematics Interface
+*   **Utility Interface** - Allows for Miscellaneous functions, Utility functions and Convertions
+*   **Memory Interface** - Allows for Fast and Simple Memory Management
