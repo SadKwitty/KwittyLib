@@ -36,7 +36,7 @@
 *   **Memory Interface** - Allows for Fast and Simple Memory Management
 
 
-
+<p align="center">
 
 <a name="-1"></a>
 
@@ -48,7 +48,7 @@
 |[Utility](#3)|
 |[Memory](#4)|
 
-
+  </p>
 ---
 
 
