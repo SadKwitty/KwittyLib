@@ -41,21 +41,21 @@
 <Future Plans>
 
 *   **Network Interface** - Improve Network Speed
-*   **Network Interface** - Asynchronous Connections
-*   **Network Interface** - Multithreading
-*   **Network Interface** - Tcp Socket System
-*   **Security Interface** - Debug Detection
-*   **Security Interface** - Virtual Machine Detection
-*   **Security Interface** - DLL Injection Protection
-*   **Security Interface** - DLL Filter
-*   **Security Interface** - Memory Integrity Check
-*   **Security Interface** - File Integrity Check
-*   **Security Interface** - Virtualization
-*   **Kernel Interface** - Adding Kernel Interface
-*   **Kernel Interface** - Loading Drivers from Usermode
-*   **Kernel Interface** - Disabling Driver Signature Enforment
-*   **Utility Interface** - Adding more Convertions
-*   **Math Interface** - Adding more Math Functions and Algorithms
+    **Network Interface** - Asynchronous Connections
+    **Network Interface** - Multithreading
+    **Network Interface** - Tcp Socket System
+    **Security Interface** - Debug Detection
+    **Security Interface** - Virtual Machine Detection
+    **Security Interface** - DLL Injection Protection
+    **Security Interface** - DLL Filter
+    **Security Interface** - Memory Integrity Check
+    **Security Interface** - File Integrity Check
+    **Security Interface** - Virtualization
+    **Kernel Interface** - Adding Kernel Interface
+    **Kernel Interface** - Loading Drivers from Usermode
+    **Kernel Interface** - Disabling Driver Signature Enforment
+    **Utility Interface** - Adding more Convertions
+    **Math Interface** - Adding more Math Functions and Algorithms
 
 
 
