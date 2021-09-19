@@ -76,7 +76,7 @@ std::string Result = interfaces.Network->Get(Link);
 | Headers | std::string | The Header from the Requested Link |
 
 
-  
+  [Back to Interfaces](#-1)
 ---
 
 ## <a name="1"></a>Security Interface
@@ -142,7 +142,9 @@ std::string UID = interfaces.Security->GetWindowsUID();
 | UID | std::string | Windows GUID |
 
 
-  
+
+    [Back to Interfaces](#-1)
+    
 ---
 
 ## <a name="2"></a>Math Interface
@@ -273,6 +275,8 @@ int PowerOf5 = interfaces.Math->Power(5, 2);
 | :--- | :--- | :--- |
 | Power | int | The Power Of the Original Number |
 
+
+  [Back to Interfaces](#-1)
 
 ---
 
