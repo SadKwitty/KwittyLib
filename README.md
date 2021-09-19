@@ -52,7 +52,10 @@
 ---
 ## <a name="0"></a>Network Interface
 
-
+Syntax: interfaces.Network->Get(std::string URL);
+**Returns** 
+```cpp
+```
   
 ---
 
