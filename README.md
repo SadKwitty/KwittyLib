@@ -148,7 +148,7 @@ std::string UID = interfaces.Security->GetWindowsUID();
 
     
 
-    [Back to Interfaces](#-1)
+
 
 ---
 
@@ -286,13 +286,37 @@ int PowerOf5 = interfaces.Math->Power(5, 2);
 ---
 
 
+## <a name="3"></a>Utility Interface
+
+---
+
+## ConvertToBinary
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Text | std::string | The Text to be Converted to Binary |
+
+**Syntax** 
+
+```cpp
+auto ByteArray = interfaces.Utils->ConvertToBinary("Hello!");
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Bytes | std::vector<unsigned long> | Binary Bits |
+ 
+ 
+ 
+ 
 
 
 
-
-
-
-
+---
 
 
 
