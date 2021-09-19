@@ -50,8 +50,9 @@
 |[Memory](#4)|
 
 ---
-# <a name="0"></a>Network Interface
+## <a name="0"></a>Network Interface
 
+---
 
 ## Get
 
@@ -73,6 +74,72 @@ std::string Result = interfaces.Network->Get(Link);
 | Name | Type | Description |
 | :--- | :--- | :--- |
 | Headers | std::string | The Header from the Requested Link |
+
+
+  
+---
+
+## <a name="1"></a>Security Interface
+
+---
+
+## CHash
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Text | std::string | The String to Hash |
+
+**Syntax** 
+
+```cpp
+std::string Hash = interfaces.Security->CHash("Hello World!");
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Hash | std::string | The Hashed String |
+
+
+
+
+## GetPhysicalHWID
+
+
+**Syntax** 
+
+```cpp
+std::string HWID = interfaces.Security->GetPhysicalHWID();
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| HWID | std::string | Hardware ID Based on Storage Drive |
+
+
+
+
+## GetWindowsUID
+
+
+[DOES NOT WORK ON ALL WINDOWS VERSIONS]
+
+**Syntax** 
+
+```cpp
+std::string UID = interfaces.Security->GetWindowsUID();
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| UID | std::string | Windows GUID |
 
 
   
