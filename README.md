@@ -52,6 +52,9 @@
 ---
 ## <a name="0"></a>Network Interface
 
+
+### Get
+
 **Parameters**
 
 | Name | Type | Description |
