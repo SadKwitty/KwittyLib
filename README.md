@@ -61,7 +61,8 @@
 **Syntax** 
 
 ```cpp
-interfaces.Network->Get();
+std::string Link = "https://github.com/SadKwitty/KwittyLib/raw/main/README.md";
+std::string Result = interfaces.Network->Get(Link);
 ```
 
 **Returns**
@@ -70,11 +71,7 @@ interfaces.Network->Get();
 | :--- | :--- | :--- |
 | Headers | std::string | The Header from the Requested Link |
 
-**Example** 
 
-```cpp
-std::string Result = interfaces.Network->Get(https://raw.githubusercontent.com/SadKwitty/KwittyLib/main/README.md);
-```
   
 ---
 
