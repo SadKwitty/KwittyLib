@@ -1,7 +1,7 @@
 
 <p align="center">
  <h2 align="center">Simple Library for C++</h2>
- <h4 align="center">Test</h4>
+ <h4 align="center">A Compact, Simple and Light Library to add to Existing Projects and New Projects</h4>
  <p align="center"></p>
 </p>
 
@@ -15,7 +15,7 @@
     </a>
  
  <a href="https://en.wikipedia.org/wiki/Cheating_in_online_games">
-      <img src="https://img.shields.io/badge/arch-x86-red.svg?style=plastic"/>
+      <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor"/>
     </a>
  
     
