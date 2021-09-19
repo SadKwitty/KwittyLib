@@ -77,6 +77,8 @@ std::string Result = interfaces.Network->Get(Link);
 
 
   [Back to Interfaces](#-1)
+
+
 ---
 
 ## <a name="1"></a>Security Interface
@@ -129,6 +131,7 @@ std::string HWID = interfaces.Security->GetPhysicalHWID();
 
 [ DOES NOT WORK ON ALL WINDOWS VERSIONS ]
 
+
 **Syntax** 
 
 ```cpp
@@ -143,8 +146,10 @@ std::string UID = interfaces.Security->GetWindowsUID();
 
 
 
-    [Back to Interfaces](#-1)
     
+
+    [Back to Interfaces](#-1)
+
 ---
 
 ## <a name="2"></a>Math Interface
