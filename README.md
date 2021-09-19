@@ -127,7 +127,7 @@ std::string HWID = interfaces.Security->GetPhysicalHWID();
 ## GetWindowsUID
 
 
-[DOES NOT WORK ON ALL WINDOWS VERSIONS]
+[ DOES NOT WORK ON ALL WINDOWS VERSIONS ]
 
 **Syntax** 
 
@@ -144,6 +144,139 @@ std::string UID = interfaces.Security->GetWindowsUID();
 
   
 ---
+
+## <a name="2"></a>Math Interface
+
+---
+
+## AccurateSQRT
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Square | int | The number to Get the Square root Off |
+
+**Syntax** 
+
+```cpp
+int Root = interfaces.Math->AccurateSQRT(25);
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Root | int | Square root of Input |
+
+
+## DefaultSQRT
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Square | int | The number to Get the Square root Off |
+
+**Syntax** 
+
+```cpp
+int Root = interfaces.Math->DefaultSQRT(25);
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Root | int | Square root of Input |
+
+
+## DefaultSQRT
+
+[ Second Iteration ]
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Square | int | The number to Get the Square root Off |
+| Output | int | The output of the Function |
+
+**Syntax** 
+
+```cpp
+int Root = 0;
+interfaces.Math->DefaultSQRT(25, Root);
+```
+
+
+
+
+## FastSQRT
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Square | int | The number to Get the Square root Off |
+
+**Syntax** 
+
+```cpp
+int Root = interfaces.Math->FastSQRT(25);
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Root | int | Square root of Input |
+
+## SQRT
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Square | int | The number to Get the Square root Off |
+
+**Syntax** 
+
+```cpp
+int Root = interfaces.Math->SQRT(25);
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Root | int | Square root of Input |
+
+## Power
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Number | int | The Number to get the Power off |
+| Number | int | The Power |
+
+**Syntax** 
+
+```cpp
+int PowerOf5 = interfaces.Math->Power(5, 2);
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Power | int | The Power Of the Original Number |
+
+
+---
+
+
 
 
 
