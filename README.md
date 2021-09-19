@@ -52,9 +52,28 @@
 ---
 ## <a name="0"></a>Network Interface
 
-Syntax: interfaces.Network->Get(std::string URL);
-**Returns** 
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| URL | std::string | The Link of the Request |
+
+**Syntax** 
+
 ```cpp
+interfaces.Network->Get();
+```
+
+**Returns**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| Headers | std::string | The Header from the Requested Link |
+
+**Example** 
+
+```cpp
+std::string Result = interfaces.Network->Get(https://raw.githubusercontent.com/SadKwitty/KwittyLib/main/README.md);
 ```
   
 ---
