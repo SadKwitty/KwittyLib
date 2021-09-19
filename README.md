@@ -18,6 +18,11 @@
       <img src="https://img.shields.io/badge/arch-x86-red.svg?style=for-the-badge&logo=appveyor"/>
     </a>
  
+ <a href="https://en.wikipedia.org/wiki/Cheating_in_online_games">
+      <img src="https://img.shields.io/badge/License-MIT-e49eff?style=for-the-badge&logo=appveyor"/>
+    </a>
+ 
+ 
     
   </p>
 
